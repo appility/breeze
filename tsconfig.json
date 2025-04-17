@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",                         // Target older JS for compatibility
+    "module": "esnext",                      // Use ES Modules
+    "declaration": true,                     // Emit `.d.ts` files for type definitions
+    "jsx": "react-jsx",                      // Support JSX with React 17+
+    "strict": true,                          // Enable strict type checking
+    "moduleResolution": "node",              // Resolve modules in node_modules
+    "baseUrl": ".",
+    "esModuleInterop": true,                 // Import CommonJS modules easily
+    "skipLibCheck": true,                    // Skip checking type definitions of libraries
+    //"outDir": "./dist",                    // Output directory for compiled files
+    "lib": ["dom", "esnext"],                // Include DOM and modern JS features
+    "sourceMap": true,                       // Generate source maps for debugging
+    "declarationDir": "./dist/types",
+    "emitDeclarationOnly": true,
+    "rootDir": "./src",
+    "allowJs": true,
+    "paths": {
+      "@appility/breeze/*": ["/src/components/*"]
+    }
+  },
+  "include": ["src/**/*", "postcss.config.js"],    // Look for files in all subdirectories of `src`
+  "exclude": ["node_modules", "dist"] // Exclude build outputs and dependencies       // Exclude build files and dependencies
+}

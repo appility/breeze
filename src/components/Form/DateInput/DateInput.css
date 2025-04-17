@@ -1,0 +1,26 @@
+  .react-datepicker-wrapper {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    width: 100%;
+  }
+  
+  .react-datepicker-popper {
+    position: absolute !important;
+    inset: auto !important;
+    transform: translate3d(0px, 5px, 0px) !important;
+    z-index: 9999;
+    margin-top: 0 !important;
+  }
+  
+  .react-datepicker {
+    position: relative !important;
+    margin-top: 4px;
+  }
+  
+  .react-datepicker__triangle {
+    left: 10% !important;
+    transform: translateX(0) rotate(180deg) translateY(-1px);
+    top: -11px;
+  }
+  

@@ -1,0 +1,6 @@
+/* tailwind-base.css — minimal essentials */
+@layer base {
+  *, ::before, ::after {
+    --tw-content: '';
+  }
+}

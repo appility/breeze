@@ -1,0 +1,16 @@
+/* In your consuming app's styles (e.g., index.css, global.css)
+:root {
+  --button-primary-bg-color: #1E40AF;
+  --button-primary-border-color: #1E40AF;
+  --button-primary-text-color: white;
+  --button-primary-hover-bg-color: #172554;
+  --button-primary-hover-text-color: white;
+
+  --button-outline-bg-color: white;
+  --button-outline-text-color: #1E40AF;
+  --button-outline-border-color: #1E40AF;
+  --button-outline-hover-bg-color: #1E40AF;
+  --button-outline-hover-text-color: white;
+
+  --button-border-radius: 8px; Global border-radius override
+} */

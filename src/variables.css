@@ -1,0 +1,43 @@
+/* src/styles/variables.css */
+:root {
+  /* ✅ Brand Colors */
+  --color-brand: #00ba8d;
+  --color-brand-light: #e0f7f1;
+  --color-secondary: #6b7280;
+  --color-danger: #dc2626;
+
+  /* ✅ Button Backgrounds */
+  --button-primary-bg: var(--color-brand);
+  --button-secondary-bg: var(--color-secondary);
+  --button-danger-bg: var(--color-danger);
+  --button-default-bg: #2563eb;
+  --button-invert-bg: #ffffff;
+  --button-hollow-bg: transparent;
+  --button-delete-bg: var(--color-danger);
+  --button-white-bg: #f3f4f6;
+
+  /* ✅ Button Borders */
+  --button-primary-border: var(--color-brand);
+  --button-secondary-border: var(--color-secondary);
+  --button-danger-border: var(--color-danger);
+  --button-default-border: var(--button-default-bg);
+  --button-invert-border: var(--button-default-bg);
+  --button-hollow-border: var(--button-default-bg);
+  --button-delete-border: var(--color-danger);
+  --button-white-border: var(--button-default-bg);
+
+  /* ✅ Button Text Colors */
+  --button-primary-text: #ffffff;
+  --button-secondary-text: #ffffff;
+  --button-danger-text: #ffffff;
+  --button-default-text: #ffffff;
+  --button-invert-text: var(--button-default-bg);
+  --button-hollow-text: var(--button-default-bg);
+  --button-delete-text: #ffffff;
+  --button-white-text: var(--button-default-bg);
+
+  /* ✅ Hover States */
+  --button-primary-hover-bg: #ffffff;
+  --button-primary-hover-text: var(--color-brand);
+  --button-primary-hover-border: var(--color-brand);
+}

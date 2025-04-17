@@ -1,0 +1,6 @@
+@import "@appility/breeze/index.css";
+
+@tailwind base; /* Base styles applied ONLY in the host app */
+@tailwind components;
+@tailwind utilities;
+

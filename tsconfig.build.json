@@ -1,0 +1,13 @@
+//  (For Type Declarations Only)
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "importHelpers": true, // Ensures tslib is used properly
+      "declaration": true,
+      "emitDeclarationOnly": true,
+      "declarationDir": "./dist/types",
+      "noEmit": false,
+      "composite": true
+    }
+  }
+  

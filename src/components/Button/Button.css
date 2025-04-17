@@ -1,0 +1,107 @@
+/* button.css */
+:root {
+  /* Primary Button */
+  --button-primary-bg: #00BA8D;
+  --button-primary-text: #FFFFFF;
+  --button-primary-border: #00BA8D;
+  --button-primary-hover-bg: #00A87D;
+  --button-primary-hover-text: #FFFFFF;
+  
+  /* Outline Button */
+  --button-outline-bg: #FFFFFF;
+  --button-outline-text: #00BA8D;
+  --button-outline-border: #00BA8D;
+  --button-outline-hover-bg: #E6F7F2;
+  --button-outline-hover-text: #00BA8D;
+  
+  /* Neutral Button */
+  --button-neutral-bg: #FFFFFF;
+  --button-neutral-text: #111827;
+  --button-neutral-border: #D1D5DB;
+  --button-neutral-hover-bg: #F9FAFB;
+  --button-neutral-hover-text: #111827;
+  
+  /* Sizing */
+  --button-small-padding: 0.25rem 0.75rem;
+  --button-medium-padding: 0.5rem 1rem;
+  --button-large-padding: 0.75rem 1.25rem;
+  
+  /* Typography */
+  --button-small-font: 0.875rem;
+  --button-medium-font: 1rem;
+  --button-large-font: 1.125rem;
+  
+  /* Border Radius */
+  --button-small-radius: 4px;
+  --button-medium-radius: 8px;
+  --button-large-radius: 12px;
+  
+  /* Transitions */
+  --button-transition: all 0.2s ease-in-out;
+}
+
+/* Base Button Styles */
+.button {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  border: 1px solid;
+  transition: var(--button-transition);
+}
+
+/* Primary Button */
+.button-primary {
+  background-color: var(--button-primary-bg);
+  color: var(--button-primary-text);
+  border-color: var(--button-primary-border);
+}
+
+.button-primary:hover {
+  background-color: var(--button-primary-hover-bg);
+  color: var(--button-primary-hover-text);
+}
+
+/* Outline Button */
+.button-outline {
+  background-color: var(--button-outline-bg);
+  color: var(--button-outline-text);
+  border-color: var(--button-outline-border);
+}
+
+.button-outline:hover {
+  background-color: var(--button-outline-hover-bg);
+  color: var(--button-outline-hover-text);
+}
+
+/* Neutral Button */
+.button-neutral {
+  background-color: var(--button-neutral-bg);
+  color: var(--button-neutral-text);
+  border-color: var(--button-neutral-border);
+}
+
+.button-neutral:hover {
+  background-color: var(--button-neutral-hover-bg);
+  color: var(--button-neutral-hover-text);
+}
+
+/* Size Variants */
+.button-small {
+  padding: var(--button-small-padding);
+  font-size: var(--button-small-font);
+  border-radius: var(--button-small-radius);
+}
+
+.button-medium {
+  padding: var(--button-medium-padding);
+  font-size: var(--button-medium-font);
+  border-radius: var(--button-medium-radius);
+}
+
+.button-large {
+  padding: var(--button-large-padding);
+  font-size: var(--button-large-font);
+  border-radius: var(--button-large-radius);
+}

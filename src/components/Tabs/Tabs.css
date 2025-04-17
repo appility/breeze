@@ -1,0 +1,42 @@
+:root {
+  --tab-color: #6b7280; /* text-gray-500 */
+  --tab-color-hover: #374151; /* text-gray-700 */
+  --tab-border: transparent;
+  --tab-border-hover: #d1d5db; /* border-gray-300 */
+  --tab-active-color: #00BA8D; /* brand-color */
+  --tab-active-border: #00BA8D; /* brand-color */
+}
+
+.tab-inactive {
+    color: var(--tab-color);
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    outline: none;
+  }
+  
+  .tab-inactive:hover {
+    color: var(--tab-color-hover);
+    border-bottom-color: var(--tab-border-hover);
+  }
+  
+  .tab-inactive:focus,
+  .tab-inactive:focus-visible {
+    border-bottom-color: var(--tab-active-border);
+    color: var(--tab-active-color);
+  }
+  
+  .tab-active {
+    color: var(--tab-active-color);
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--tab-active-border);
+  }
+  
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
